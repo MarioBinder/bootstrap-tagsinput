@@ -1,5 +1,5 @@
 /*
- * bootstrap-tagsinput-2021 v0.8.4
+ * bootstrap-tagsinput-2021 v0.8.5
  * 
  */
 
@@ -140,7 +140,7 @@
 
       // add a tag element
 
-      var $tag = $('<span class="tag ' + htmlEncode(tagClass) + ((itemTitle !== null ? ('" title="' + htmlEncode(itemTitle) : '') + '">' + htmlEncode(itemText) + '<span data-role="remove"></span></span>');
+      var $tag = $('<span class="tag ' + htmlEncode(tagClass) + (itemTitle !== null ? ('" title="' + htmlEncode(itemTitle)) : '') + '">' + htmlEncode(itemText) + '<span data-role="remove"></span></span>');
       $tag.data('item', item);
       self.findInputWrapper().before($tag);
       $tag.after(' ');

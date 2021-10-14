@@ -1,5 +1,5 @@
 /*
- * bootstrap-tagsinput-2021 v0.8.4
+ * bootstrap-tagsinput-2021 v0.8.5
  * 
  */
 

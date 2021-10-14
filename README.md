@@ -1,10 +1,12 @@
 # Bootstrap Tags Input [![Build Status](https://travis-ci.org/bootstrap-tagsinput/bootstrap-tagsinput.svg?branch=master)](https://travis-ci.org/bootstrap-tagsinput/bootstrap-tagsinput)
 Bootstrap Tags Input is a jQuery plugin providing a Twitter Bootstrap user interface for managing tags.
 
-Current stable version: **v0.8.0**
+Current stable version: **v0.8.6**
 
 ## Support
-The Version of v0.8.0 is actually not supported anymore. Use the fixed Version bootstrap-tagsinput-2021 instead.
+The official Version v0.8.0 is actually not supported anymore!
+
+Use the fixed Version bootstrap-tagsinput-2021 instead.
 XSS vulnerable Version fixed -> npm install bootstrap-tagsinput-2021
 
 ## Usage
@@ -58,6 +60,9 @@ Current Library Versions:
 Libraries for testing go in the **/lib** directory.
 
 ## History
+- 0.8.6
+  - Fix XSS vulnerable https://snyk.io/vuln/npm:bootstrap-tagsinput:20160720
+  - npm install bootstrap-tagsinput-2021
 - 0.8.0
   - [Add possibility skip "change" event after "add", "remove", "removeAll"](https://github.com/bootstrap-tagsinput/bootstrap-tagsinput/pull/429)
   - [Please add version to header of non-minified version.](https://github.com/bootstrap-tagsinput/bootstrap-tagsinput/issues/438)
