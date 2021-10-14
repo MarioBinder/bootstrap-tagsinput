@@ -3,6 +3,10 @@ Bootstrap Tags Input is a jQuery plugin providing a Twitter Bootstrap user inter
 
 Current stable version: **v0.8.0**
 
+## Support
+The Version of v0.8.0 is actually not supported anymore. Use the fixed Version bootstrap-tagsinput-2021 instead.
+XSS vulnerable Version fixed -> npm install bootstrap-tagsinput-2021
+
 ## Usage
 Examples can be found [here](http://bootstrap-tagsinput.github.io/bootstrap-tagsinput/examples/).
 
