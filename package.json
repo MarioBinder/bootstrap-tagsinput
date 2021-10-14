@@ -1,7 +1,7 @@
 {
-  "name": "bootstrap-tagsinput",
+  "name": "bootstrap-tagsinput-2021",
   "title": "Bootstrap Tags Input",
-  "version": "0.8.0",
+  "version": "0.8.2",
   "description": "jQuery plugin providing a Twitter Bootstrap user interface for managing tags.",
   "scripts": {
     "test": "karma start --single-run --no-auto-watch"
@@ -9,13 +9,12 @@
   "main": "dist/bootstrap-tagsinput.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/timschlechter/bootstrap-tagsinput.git"
+    "url": "git://github.com/MarioBinder/bootstrap-tagsinput.git"
   },
   "author": "Tim Schlechter",
   "contributors": [
-    {
-      "name": "Luckner Jr Jean-Baptiste"
-    }
+    "Luckner Jr Jean-Baptiste",
+    "Mario Binder"
   ],
   "license": "MIT",
   "homepage": "http://timschlechter.github.io/bootstrap-tagsinput/examples/",
@@ -27,7 +26,6 @@
     "select",
     "form"
   ],
-  "readmeFilename": "README.md",
   "devDependencies": {
     "bower": "~1.3.8",
     "grunt": "~0.4.1",
@@ -44,5 +42,13 @@
     "karma-phantomjs-launcher": "~0.1.3",
     "phantomjs": "~1.9.7-15"
   },
-  "banner": "/*\n * <%= pkg.name %> v<%= pkg.version %>\n * <%= pkg.license.url %>\n */\n"
+  "banner": "/*\n * <%= pkg.name %> v<%= pkg.version %>\n * <%= pkg.license.url %>\n */\n",
+  "bugs": {
+    "url": "https://github.com/timschlechter/bootstrap-tagsinput/issues"
+  },
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
+  }
 }
